@@ -27,7 +27,7 @@ export class MyApp {
 
   presentLoading() {
     this.loader = this.loadingController.create({
-      content: "Γίνεται Πιστοποίηση...",
+      content: "Γίνεται Πιστοποίηση....",
     });
     this.loader.present();
   }
